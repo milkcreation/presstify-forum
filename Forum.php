@@ -3,7 +3,7 @@
 Plugin Name: Forum
 Plugin URI: http://presstify.com/plugins/forum
 Description: Gestion de forum
-Version: 1.1.465
+Version: 1.0.0
 Author: Milkcreation
 Author URI: http://profile.milkcreation.fr/jordy
 */
