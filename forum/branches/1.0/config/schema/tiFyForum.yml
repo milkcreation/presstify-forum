@@ -1,0 +1,9 @@
+Admin:     
+  tiFyPluginsForumMenu:
+    admin_menu :
+      menu_slug:        'tiFyForum'
+      icon_url:         'dashicons-megaphone'
+          
+Labels:
+  plural:               "<?php _e( 'forums', 'tify' );?>"
+  singular:             "<?php _e( 'forum', 'tify' );?>"  
