@@ -1,0 +1,9 @@
+# Listes des rôles et habilitations
+roles:
+  tify_forum_contributor:
+    display_name:           "<?php _e( 'Contributeur de forum', 'tify' );?>"
+    capabilities:           [ ]   
+    show_admin_bar_front:   false
+    
+# Contenu d'accroche
+hook_id:                    0     
