@@ -1,0 +1,11 @@
+Admin:
+  tiFyPluginsForumTabooxOption:
+    admin_menu:
+      parent_slug:  'tiFyForum'
+      menu_slug:    'tiFyForumOptions'
+      position:     7
+    cb:           'tiFy\Plugins\Forum\Admin\Options\Options'
+          
+Labels:
+  plural:               "<?php _e( 'options', 'tify' );?>"
+  singular:             "<?php _e( 'option', 'tify' );?>"  
