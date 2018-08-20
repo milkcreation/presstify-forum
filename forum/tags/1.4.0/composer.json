@@ -1,0 +1,27 @@
+{
+  "name": "presstify-plugins/forum",
+  "description": "PresstiFy Plugin Forum",
+  "type": "presstify-plugins",
+  "keywords": ["presstify", "plugins", "wordpress", "forum"],
+  "homepage": "http://svn.milkcreation.fr/presstify-plugins/forum",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jordy Manner",
+      "email": "jordy.manner@milkcreation.fr",
+      "role": "Developper"
+    }
+  ],
+  "config" : {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "tiFy\\Plugins\\Forum\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
