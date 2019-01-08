@@ -1,0 +1,101 @@
+Admin: 
+  tiFyPluginsForumContributionListTable:
+    admin_menu:
+      parent_slug:      'tiFyForum'
+      menu_slug:        'tiFyForumContributionList'
+      position:         3       
+    cb:               'tiFy\Plugins\Forum\Admin\Contribution\ListTable\ListTable'
+    edit_template:    'tiFyPluginsForumContributionEditForm'  
+    
+  tiFyPluginsForumContributionEditForm:
+    admin_menu:
+      parent_slug:      'tiFyForum'
+      menu_slug:        'tiFyForumContributionEdit'
+      position:         4
+    cb:               'tiFy\Plugins\Forum\Admin\Contribution\EditForm\EditForm'
+          
+Labels:
+  plural:               "<?php _e( 'contributions', 'tify' );?>"
+  singular:             "<?php _e( 'contribution', 'tify' );?>"
+  gender:               true 
+  
+Db:
+  name:             'tify_forum_contribution'
+  install:          true
+  col_prefix:       'contrib_'
+  has_meta:         true
+  columns:
+    id:
+      type:           BIGINT
+      size:           20
+      unsigned:       true
+      auto_increment: true
+      
+    topic_id:
+      type: BIGINT
+      size: 20
+      unsigned: true
+      default: 0
+      
+    author:
+      type: TINYTEXT
+      
+    author_email:
+      type: VARCHAR
+      size: 100
+      default: ""
+      
+    author_url:
+      type: VARCHAR
+      size: 200
+      default: ""
+      
+    author_IP:
+      type: VARCHAR
+      size: 100
+      default: ""
+      
+    date:
+      type: DATETIME
+      default: 0000-00-00 00:00:00
+      
+    date_gmt:
+      type: DATETIME
+      default: 0000-00-00 00:00:00
+      
+    content:
+      type: TEXT
+      default: false
+      
+    karma:
+      type: INT
+      size: 11
+      default: 0
+      
+    approved:
+      type: VARCHAR
+      size: 20
+      default: 1
+      
+    agent:
+      type: VARCHAR
+      size: 255
+      default: ""
+      
+    type:
+      type: VARCHAR
+      size: 20
+      default: ""
+      
+    parent:
+      type: BIGINT
+      size: 20
+      unsigned: true
+      default: 0
+      
+    user_id:
+      type: BIGINT
+      size: 20
+      unsigned: true
+      default: 0
+    
