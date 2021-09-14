@@ -3,8 +3,7 @@
   "description": "PresstiFy Plugin Forum",
   "type": "presstify-plugins",
   "keywords": ["presstify", "plugins", "wordpress", "forum"],
-  "homepage": "http://svn.milkcreation.fr/presstify-plugins/forum",
-  "license": "proprietary",
+  "homepage": "https://github.com/milkcreation/presstify-forum.git",
   "authors": [
     {
       "name": "Jordy Manner",
